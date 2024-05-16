@@ -11,7 +11,7 @@ CREATE TABLE pessoa (
     sobrenome VARCHAR(100) NOT NULL,
     data_Nascimento DATE NOT NULL,
     logradouro VARCHAR(100),
-    numero INT,
+    numero VARCHAR(11),
     bairro VARCHAR(100),
     complemento VARCHAR(100),
     cidade varchar(50) NOT NULL,
